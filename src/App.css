@@ -1,0 +1,60 @@
+*{
+  margin:0px;
+  padding:0px;
+  box-sizing: border-box;
+}
+
+body{
+  height: 100vh;
+  background-color: white;
+}
+
+.App-Container{
+  width: 60%;
+  height: 80%;
+  top: 5%;
+  left: 20%;
+  background-image: linear-gradient(rgb(218, 77, 138), rgb(255, 92, 127), rgb(255, 163, 92), rgb(255, 206, 102));;
+  min-width: 450px;
+  min-height: 100px;
+  position: absolute;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 11px;
+  font-weight: bold;
+  color: grey;
+}
+
+input{
+  min-width: 80%;
+  min-height: 40px;
+  margin: 2rem 5rem 0.5rem;
+  padding-left: 15px;
+  border-radius: 4px;
+  border: 0.1px solid rgb(182, 176, 176);
+  outline: none;
+}
+
+.User-info{
+  display: grid;
+  grid-template-columns: repeat(2, 40%);
+  justify-content:center;
+}
+
+.profile-contents{
+  display:flex;
+  background-color: white;
+  margin: 7px 3px;
+  gap: 2px;
+  padding: 9px 5px;
+  border-radius: 3px;
+}
+
+img{
+  margin: 0px 10px;
+  width: 45px;
+}
+
+::placeholder{
+  font-style: italic;
+  color: rgb(183, 177, 177);
+}
